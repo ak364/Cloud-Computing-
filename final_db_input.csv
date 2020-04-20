@@ -1,0 +1,101 @@
+id,name,locality,city,cuisines,average_cost_for_two,aggregate_rating,rating_text,votes
+0,Dinner by Heston Blumenthal,"Knightsbridge, Knightsbridge",London,British,130,4.9,Excellent,530
+1,Duck & Waffle,"Bishopsgate, City Of London",London,British,55,4.9,Excellent,824
+2,Sushi Samba,"Bishopsgate, City Of London",London,"Japanese, Sushi, Brazilian, Peruvian",110,4.9,Excellent,512
+3,Patty & Bun,"James Street, Marylebone",London,"Burger, British",30,4.9,Excellent,487
+4,The Ledbury,Notting Hill,London,"British, European, French",250,4.9,Excellent,402
+5,Chotto Matte,"Frith Street, Soho",London,"Japanese, Peruvian, Sushi",70,4.9,Excellent,373
+6,Hoppers,"Frith Street, Soho",London,"Sri Lankan, Indian",45,4.9,Excellent,183
+7,Bao,"Lexington Street, Soho",London,"Taiwanese, Street Food",25,4.9,Excellent,265
+8,Dishoom,"Stable Street, King's Cross",London,"Indian, North Indian, Curry",45,4.9,Excellent,286
+9,Gymkhana,"Albemarle Street, Mayfair",London,"Indian, Pakistani, Curry",80,4.9,Excellent,242
+10,Dishoom,"Kingly Street, Soho",London,"Indian, Curry",35,4.9,Excellent,200
+11,Spicy Basil,"Kilburn High Road, Kilburn",London,"Thai, Curry",25,4.9,Excellent,209
+12,Amorino,"Old Compton Street, Soho",London,"Desserts, Ice Cream, Cafe",20,4.9,Excellent,129
+13,Tukdin,"Craven Road, Bayswater",London,"Malaysian, Curry",25,4.9,Excellent,82
+14,Dotori,"Station Place, Finsbury Park",London,"Japanese, Korean, Sushi",30,4.9,Excellent,100
+15,The Breakfast Club,"D'arblay Street, Soho",London,"American, Burger",40,4.8,Excellent,358
+16,Burger & Lobster,"Dean Street, Soho",London,"American, Seafood, Burger",45,4.8,Excellent,462
+17,Barrafina,"Frith Street, Soho",London,"Spanish, Tapas, Healthy Food",60,4.8,Excellent,402
+18,Bob Bob Ricard,Soho,London,"British, Russian",100,4.8,Excellent,360
+19,Burger & Lobster,"Clarges Street, Mayfair",London,"American, Seafood, Burger",45,4.8,Excellent,417
+20,Restaurant Gordon Ramsay,Chelsea,London,French,230,4.8,Excellent,256
+21,Sticks 'n' Sushi,"Henrietta Street, Covent Garden",London,"Japanese, Sushi",65,4.8,Excellent,179
+22,The Palomar,"Rupert Street, Chinatown",London,"Middle Eastern, Arabian, Moroccan",55,4.8,Excellent,156
+23,Beigel Bake,Brick Lane,London,Bakery,10,4.8,Excellent,284
+24,Said Dal 1923,"Lexington Street, Soho",London,"Cafe, Desserts",15,4.8,Excellent,141
+25,Homeslice,"Neal's Yard, Covent Garden",London,Pizza,30,4.8,Excellent,212
+26,Clos Maggiore,"King Street, Covent Garden",London,"French, Seafood",80,4.8,Excellent,198
+27,Padella,London Bridge,London,Italian,35,4.8,Excellent,96
+28,Gordon's Wine Bar,Strand,London,British,50,4.8,Excellent,174
+29,Meza,"Trinity Road, Tooting",London,Lebanese,25,4.8,Excellent,46
+30,Dishoom,"Boundary Street, Shoreditch",London,"Indian, Cafe, Curry",55,4.7,Excellent,364
+31,Roti Chai,"Portman Mews South, Marble Arch",London,"Indian, Street Food",45,4.7,Excellent,391
+32,Bone Daddies,"Walker's Court, Soho",London,"Ramen, Japanese",40,4.7,Excellent,399
+33,Zuma,"Raphael Street, Knightsbridge",London,"Japanese, Sushi",130,4.7,Excellent,437
+34,Honest Burgers,"Meard Street, Soho",London,"Burger, Fast Food",30,4.7,Excellent,389
+35,Roka,"Charlotte Street, Fitzrovia",London,"Japanese, Sushi",60,4.7,Excellent,307
+36,Sketch Gallery,"Conduit Street, Mayfair",London,"British, Contemporary",100,4.7,Excellent,218
+37,Ottolenghi,"Upper Street, Islington",London,"Mediterranean, Deli, Bakery, Healthy Food",50,4.7,Excellent,294
+38,Hawksmoor Seven Dials,"Langley Street, Covent Garden",London,"Steak, British",75,4.7,Excellent,319
+39,Mildreds,"Lexington Street, Soho",London,"Mediterranean, Asian, Healthy Food",45,4.7,Excellent,281
+40,The Delaunay,"Aldwych, Aldwych",London,"European, German",70,4.7,Excellent,168
+41,Franco Manca,"Market Row, Brixton",London,Pizza,25,4.7,Excellent,287
+42,Sketch Lecture Room,"Conduit Street, Mayfair",London,French,125,4.7,Excellent,120
+43,Ladurée,"Clare Market, Covent Garden",London,"Cafe, Desserts",65,4.7,Excellent,198
+44,Oblix at The Shard,"Saint Thomas Street, London Bridge",London,"European, Grill, Seafood",120,4.7,Excellent,132
+45,Vapiano,"Wardour Street, Soho",London,Italian,35,4.7,Excellent,151
+46,Launceston Place,"Launceston Place, South Kensington",London,British,80,4.7,Excellent,136
+47,José Tapas Bar,"Bermondsey Street, Bermondsey",London,"Spanish, Tapas",30,4.7,Excellent,163
+48,Bleecker St. Burger,"Lamb Street, Spitalfields",London,"Burger, American, Street Food",20,4.7,Excellent,126
+49,San Carlo Cicchetti,"Piccadilly, Mayfair",London,Italian,35,4.7,Excellent,121
+50,Pizzeria Pappagone,"Stroud Green Road, Crouch End",London,"Pizza, Italian",30,4.7,Excellent,136
+51,The Regency Club,"Queensbury Station Parade, Queensbury",London,"Indian, North Indian, Curry, Burger",40,4.7,Excellent,115
+52,StickyWings,Brick Lane,London,American,20,4.7,Excellent,57
+53,FM Mangal,"Camberwell Church Street, Camberwell",London,"Turkish, Fast Food",20,4.7,Excellent,54
+54,Tarantella,"Elliott Road, Chiswick",London,Italian,45,4.7,Excellent,41
+55,Sushi Nara,"Church Street, Staines",London,"Japanese, Sushi",30,4.7,Excellent,28
+56,Villa Toscana,"Boileau Road, Ealing",London,"Italian, Pizza",30,4.7,Excellent,21
+57,Busaba Eathai,"Wardour Street, Soho",London,"Thai, Curry",35,4.6,Excellent,505
+58,The Wolseley,"Piccadilly, Mayfair",London,"European, British, French",55,4.6,Excellent,505
+59,Brasserie Zedel,"Glasshouse Street, Soho",London,"French, American",50,4.6,Excellent,253
+60,Wahaca,"Chandos Place, Covent Garden",London,Mexican,35,4.6,Excellent,458
+61,Princi,"Wardour Street, Soho",London,Italian,30,4.6,Excellent,395
+62,Bocca Di Lupo,"Archer Street, Soho",London,Italian,45,4.6,Excellent,393
+63,Aqua Shard,London Bridge,London,British,90,4.6,Excellent,252
+64,Nobu,Mayfair,London,"Japanese, Sushi",100,4.6,Excellent,273
+65,The Kati Roll Company,"Poland Street, Soho",London,Indian,15,4.6,Excellent,331
+66,Hutong,London Bridge,London,"Chinese, Dim Sum",90,4.6,Excellent,204
+67,Novikov - Asian Room,"Mayfair Place, Mayfair",London,Asian,70,4.6,Excellent,165
+68,Bodean's,"Poland Street, Soho",London,"American, Grill",40,4.6,Excellent,325
+69,Pollen Street Social,Mayfair,London,British,120,4.6,Excellent,205
+70,COYA,"Piccadilly, Mayfair",London,"Latin American, Peruvian",90,4.7,Excellent,196
+71,Amaya,"Motcomb Street, Knightsbridge",London,"Indian, North Indian, Curry",70,4.6,Excellent,182
+72,Tapas Brindisa,London Bridge,London,"Spanish, Tapas",50,4.6,Excellent,213
+73,The Big Easy,Chelsea,London,"American, Seafood",50,4.6,Excellent,267
+74,Roka,"Canada Square, Canary Wharf",London,"Japanese, Sushi",60,4.6,Excellent,153
+75,Yalla Yalla,"Brewer Street, Soho",London,"Middle Eastern, Lebanese, Street Food",30,4.6,Excellent,262
+76,St John Bar and Restaurant,"Saint John Street, Farringdon",London,British,90,4.6,Excellent,258
+77,Opera Tavern,"Catherine Street, Covent Garden",London,"Spanish, Italian, European, Tapas",50,4.6,Excellent,197
+78,Pizza Union,Spitalfields,London,"Pizza, Italian",15,4.6,Excellent,170
+79,Pachamama,"Hinde Street, Marylebone",London,"Peruvian, Tapas",60,4.6,Excellent,89
+80,Berners Tavern,"Berners Street, Fitzrovia",London,"French, British",100,4.6,Excellent,166
+81,L'ETO Caffe,"Wardour Street, Soho",London,"Cafe, British",30,4.6,Excellent,130
+82,Le Relais de Venise L'Entrecote,"Marleybone Lane, Marylebone",London,"Steak, French",60,4.6,Excellent,240
+83,The Churchill Arms,"Kensington Church Street, Kensington",London,Thai,35,4.6,Excellent,221
+84,The Clove Club,"Beech Street, Hoxton",London,British,90,4.6,Excellent,100
+85,Medlar,Chelsea,London,"French, Modern European",100,4.6,Excellent,119
+86,Le Gavroche,"Upper Brook Street, Mayfair",London,French,180,4.6,Excellent,192
+87,Sexy Fish,"Berkeley Square, Mayfair",London,"Seafood, Asian",75,4.6,Excellent,90
+88,Kanada Ya,"New Compton Street, Covent Garden",London,"Ramen, Japanese",35,4.6,Excellent,114
+89,Roka,"North Audley Street, Mayfair",London,"Japanese, Sushi",60,4.6,Excellent,84
+90,Gelupo,"Archer Street, Soho",London,"Ice Cream, Desserts",15,4.6,Excellent,167
+91,The Ritz Restaurant,"Piccadilly, Mayfair",London,"British, French",200,4.5,Excellent,91
+92,Misato,"Wardour Street, Chinatown",London,"Japanese, Sushi",35,4.6,Excellent,151
+93,Chez Bruce,"Bellevue Road, Wandsworth Common",London,"French, Modern European",110,4.6,Excellent,168
+94,Roka,"Aldwych, Aldwych",London,"Japanese, Sushi",60,4.6,Excellent,60
+95,The Social Eating House,"Poland Street, Soho",London,"British, Contemporary",60,4.6,Excellent,94
+96,Afghan Kitchen,"Islington Green, Islington",London,Afghan,25,4.6,Excellent,106
+97,Great Queen Street,"Great Queen Street, Covent Garden",London,British,60,4.6,Excellent,111
+98,Portobello Ristorante Pizzeria,"Ladbroke Road, Notting Hill",London,"Italian, Pizza",45,4.6,Excellent,92
+99,Bosphorus Kebabs,"Old Brompton Road, South Kensington",London,"Turkish, Fast Food",15,4.6,Excellent,89

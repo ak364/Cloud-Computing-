@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summary</title>
+</head>
+<body>
+<table class="table" id="Zomato Aggregates">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Cuisines</th>
+          <th scope="col">City</th>
+          <th scope="col">Locality</th>
+          <th scope="col">Rating</th>
+          <th scope="col">Cost for two</th>
+          <th scope="col">Agg Rating</th>
+          <th scope="col">Votes</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    {%  for r in data %}
+        <tr>
+        <td>{{ r["ID"] }}</td>
+        <td style="text-align:center">{{ r["Name"] }}</td>
+            <td>{{ r["Cuisines"] }}</td>
+            <td>{{ r["City"] }}</td>
+            <td>{{ r["Locality"] }}</td>
+        <td>{{ r["Rating"] }}</td>
+        <td style="text-align:center">{{ r["Cost for two"] }}</td>
+        <td>{{ r["Agg Rating"] }}</td>
+        <td style="text-align:center">{{ r["Votes"] }}</td>
+        </tr>
+    {% endfor %}
+</body>
+</html>
