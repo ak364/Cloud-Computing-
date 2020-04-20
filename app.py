@@ -28,6 +28,7 @@ def zomato_cat():
     response = requests.request("GET", url, headers=header, data=payload)
     return response.json()
 
+# External API call
 # Fetch restaurant collections
 @app.route('/usr/collections', methods=['GET'])
 def zomato_colls():
@@ -37,6 +38,7 @@ def zomato_colls():
     response = requests.request("GET", url, headers=header, data=payload)
     return response.json()
 
+# External API call
 # Fetch restaurant cuisines
 @app.route('/usr/cuisines', methods=['GET'])
 def zomato_cuis():
