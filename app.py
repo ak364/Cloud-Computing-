@@ -12,14 +12,14 @@ API_KEY = os.getenv('PROJECT_API_KEY')
 
 app = Flask(__name__)
 
-
+# Home Page
 @app.route('/')
 def welcome():
     return render_template('index.html')
 
 
 # External API call
-# Summary information : Includes country stats and global stats
+# Fetch restaurant categories
 @app.route('/usr/categories', methods=['GET'])
 def zomato_cat():
     url = "https://developers.zomato.com/api/v2.1/categories"
@@ -28,7 +28,7 @@ def zomato_cat():
     response = requests.request("GET", url, headers=header, data=payload)
     return response.json()
 
-
+# Fetch restaurant collections
 @app.route('/usr/collections', methods=['GET'])
 def zomato_colls():
     url = "https://developers.zomato.com/api/v2.1/collections?city_id=61"
@@ -37,7 +37,7 @@ def zomato_colls():
     response = requests.request("GET", url, headers=header, data=payload)
     return response.json()
 
-
+# Fetch restaurant cuisines
 @app.route('/usr/cuisines', methods=['GET'])
 def zomato_cuis():
     url = "https://developers.zomato.com/api/v2.1/cuisines?city_id=61"
@@ -67,7 +67,7 @@ def summary_det():
             })
     return render_template("summary.html", data=result)
 
-
+# Add new city
 @app.route('/admin/citiesadd', methods=['POST'])
 def add_city():
     if not request.json or not 'id' in request.json \
@@ -89,6 +89,7 @@ def add_city():
     else:
         abort(406, description="The city already exist in the database")
 
+# Update city
 @app.route('/admin/citiesupd/<name>', methods=['PUT'])
 def upd_city(name):
     if not request.json:
@@ -106,6 +107,7 @@ def upd_city(name):
         session.execute(queryUpdateCity)
         return "Success", 201
 
+# Delete city
 @app.route('/admin/citiesdel/<name>', methods=['DELETE'])
 def del_city(name):
     results = session.execute("""SELECT * FROM ZOMATO.CITIES WHERE NAME = '{}'ALLOW FILTERING""".format(name))
