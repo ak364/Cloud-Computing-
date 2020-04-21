@@ -16,16 +16,27 @@ and presenting it in way to let us choose the right one of our choice.This app m
 
 #### External API
 
-`1. GET @app.route('/usr/categories')`
- Gets the categories of restaurants from the External API.
-`2. GET @app.route('/usr/collections')`
-`3. GET @app.route('/usr/cuisines'')`
+`1. GET @app.route('/usr/categories')` <br />
+ Gets the categories of restaurants from the External API.  
+ 
+`2. GET @app.route('/usr/collections')` <br />
+Gets the collections of restaurants from the External API.  
+
+`3. GET @app.route('/usr/cuisines'')` <br />
+Gets the list of cuisines from the External API.
 
 #### REST-based Service Interface
-`1. GET @app.route('/usr/aggregates')`
-`2. POST @app.route('/admin/citiesadd')`
-`3. PUT @app.route('/admin/citiesupd/<name>)`
-`4. DELETE @app.route('/admin/citiesdel/<name>')`
+`1. GET @app.route('/usr/aggregates')` <br />
+Extracts the Top 100 London restaurant details from Cassandra DB
+
+`2. POST @app.route('/admin/citiesadd')` <br />
+Adds the new city into the Cassandra DB
+
+`3. PUT @app.route('/admin/citiesupd/<name>)` <br />
+Updates the existing city in the Cassandra DB
+
+`4. DELETE @app.route('/admin/citiesdel/<name>')` <br />
+Delete the existing city from the Cassandra DB
 
 
 
