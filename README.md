@@ -57,7 +57,7 @@ sudo docker pull cassandra:latest
 
 2.Run cassandra in a Docker container and expose port 9042:
 ```
-sudo docker run --name cassandra-cont -p 9042:9042 -d cassandra
+sudo docker run --name cassandra-prod -p 9042:9042 -d cassandra
 ```
 
 3.Download csv file with aggregates
