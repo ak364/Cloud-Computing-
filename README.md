@@ -11,3 +11,9 @@ and presenting it in way to let us choose the right one of our choice.This app m
 - Support for cloud scalability, deployment in a container environment.
 - Cloud security awareness by running my flask application over HTTPS Using self--    signed certificate.
 - Request followup orchestration using HATEOAS.
+
+### Services
+
+####External API
+
+`1 GET @app.route('/usr/categories')`
