@@ -30,13 +30,17 @@ Gets the list of cuisines from the External API.
 Extracts the Top 100 London restaurant details from Cassandra DB
 
 `2. POST @app.route('/admin/citiesadd')` <br />
-Adds the new city into the Cassandra DB
+Adds the new city into the Cassandra DB  <br />
+`curl -i -k -H "Content-Type: application/json" -X POST -d '{"id":720,"name":"Wakanda","country_name":"Gumbacha"}' https://0.0.0.0:443/admin/citiesadd`
 
 `3. PUT @app.route('/admin/citiesupd/<name>)` <br />
-Updates the existing city in the Cassandra DB
+Updates the existing city in the Cassandra DB <br />
+`curl -i -k -H "Content-Type: application/json" -X PUT -d '{"id":345,"country_name":"Baadumbe"}' https://0.0.0.0:443/admin/citiesupd/Wakanda`
 
 `4. DELETE @app.route('/admin/citiesdel/<name>')` <br />
-Delete the existing city from the Cassandra DB
+Delete the existing city from the Cassandra DB <br />
+`curl -k -X DELETE https://0.0.0.0:443/admin/citiesdel/Wakanda`
+
 
 
 
