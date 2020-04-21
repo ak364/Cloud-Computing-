@@ -38,7 +38,7 @@ curl -i -k -H "Content-Type: application/json" -X POST -d '{"id":720,"name":"Wak
 `3. PUT @app.route('/admin/citiesupd/<name>)` <br />
 Updates the existing city in the Cassandra DB <br />
 ```
-curl -i -k -H "Content-Type: application/json" -X PUT -d '{"id":345,"country_name":"Baadumbe"}' &https://0.0.0.0:443/admin/citiesupd/Wakanda
+curl -i -k -H "Content-Type: application/json" -X PUT -d '{"id":345,"country_name":"Baadumbe"}' https://0.0.0.0:443/admin/citiesupd/Wakanda
 ```
 
 `4. DELETE @app.route('/admin/citiesdel/<name>')` <br />
