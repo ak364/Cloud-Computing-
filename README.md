@@ -31,11 +31,11 @@ and presenting it in way to let us choose the right one of our choice.This app m
 
 `2. POST @app.route('/admin/citiesadd')` <br />
 &emsp;Adds the new city into the Cassandra DB  <br />
-&emsp;&emsp;`curl -i -k -H "Content-Type: application/json" -X POST -d '{"id":720,"name":"Wakanda","country_name":"Gumbacha"}'    https://0.0.0.0:443/admin/citiesadd`
+&emsp;&emsp;`curl -i -k -H "Content-Type: application/json" -X POST -d '{"id":720,"name":"Wakanda","country_name":"Gumbacha"}'    &emsp;https://0.0.0.0:443/admin/citiesadd`
 
 `3. PUT @app.route('/admin/citiesupd/<name>)` <br />
 &emsp;Updates the existing city in the Cassandra DB <br />
-&emsp;&emsp;`curl -i -k -H "Content-Type: application/json" -X PUT -d '{"id":345,"country_name":"Baadumbe"}' https://0.0.0.0:443/admin/citiesupd/Wakanda`
+&emsp;&emsp;`curl -i -k -H "Content-Type: application/json" -X PUT -d '{"id":345,"country_name":"Baadumbe"}' &emsp;https://0.0.0.0:443/admin/citiesupd/Wakanda`
 
 `4. DELETE @app.route('/admin/citiesdel/<name>')` <br />
 &emsp;Delete the existing city from the Cassandra DB <br />
