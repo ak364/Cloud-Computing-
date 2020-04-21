@@ -109,7 +109,11 @@ cqlsh>COPY zomato.summary(id,name,locality,city,cuisines,average_cost_for_two,ag
       WITH HEADER=TRUE;
  ```
 
-
+### Security
+This app is served over HTTPS using self-signed certificate. The keys were obtained using below command in project directory.
+```
+$ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
+```
 
 
 
