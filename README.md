@@ -67,7 +67,7 @@ wget https://raw.githubusercontent.com/ak364/Cloud-Computing-/master/final_db_in
 
 4.Moving the file to Cassandra home path
 ```
-sudo docker final_db_input.csv cassandra-prod:/home/final_db_input.csv
+sudo docker cp final_db_input.csv cassandra-prod:/home/final_db_input.csv
 ```
 
 5.Access the cassandra container in iterative mode
