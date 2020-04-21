@@ -123,9 +123,12 @@ This architectural style lets you use hypermedia links in the response contents 
 When you try to make a get request like Based on the id, It queries the database and creates a dynamic JSON.
 
 ### Execution
+```
 cd mini_project/
 sudo docker build . --tag=miniproject:v1
 sudo docker run -dp 443:443 miniproject:v1
+```
+
 Remember to add https infront of the AWS public url.
 
 
