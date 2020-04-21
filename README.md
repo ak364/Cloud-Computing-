@@ -72,7 +72,7 @@ sudo docker cp final_db_input.csv cassandra-prod:/home/final_db_input.csv
 
 5.Access the cassandra container in iterative mode
 ```
-sudo docker exec -it cassandra-cont cqlsh
+sudo docker exec -it cassandra-prod cqlsh
 ```
 
 6.Create a keyspace inside Cassandra for the Zomato restaurant DB
