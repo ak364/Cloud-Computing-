@@ -115,10 +115,18 @@ This app is served over HTTPS using self-signed certificate. The keys were obtai
 $ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
 ```
 
+### HATEOAS (Hypermedia as the Engine of Application State)
+It is a constraint of the REST application architecture that keeps the RESTful style architecture unique from most other network application architectures. The term “hypermedia” refers to any content that contains links to other forms of media such as images, movies, and text.
 
+This architectural style lets you use hypermedia links in the response contents so that the client can dynamically navigate to the appropriate resource by traversing the hypermedia links. This is conceptually the same as a web user navigating through web pages by clicking the appropriate hyperlinks in order to achieve a final goal.
 
+When you try to make a get request like Based on the id, It queries the database and creates a dynamic JSON.
 
-
+### Execution
+cd mini_project/
+sudo docker build . --tag=miniproject:v1
+sudo docker run -dp 443:443 miniproject:v1
+Remember to add https infront of the AWS public url.
 
 
 
