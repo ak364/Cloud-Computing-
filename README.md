@@ -46,6 +46,82 @@ Delete the existing city from the Cassandra DB <br />
  ```
  curl -k -X DELETE https://0.0.0.0:443/admin/citiesdel/Wakanda
  ```
+### Deployment
+
+1.Inital Steps
+```
+sudo apt update
+sudo apt install docker.io
+sudo docker pull cassandra:latest
+```
+
+2.Run cassandra in a Docker container and expose port 9042:
+```
+sudo docker run --name cassandra-cont -p 9042:9042 -d cassandra
+```
+
+3.Download csv file with aggregates
+```
+wget https://raw.githubusercontent.com/ak364/Cloud-Computing-/master/final_db_input.csv
+```
+
+4.Moving the file to Cassandra home path
+```
+sudo docker final_db_input.csv cassandra-prod:/home/final_db_input.csv
+```
+
+5.Access the cassandra container in iterative mode
+```
+sudo docker exec -it cassandra-cont cqlsh
+```
+
+6.Create a keyspace inside Cassandra for the Zomato restaurant DB
+```
+cqlsh> CREATE KEYSPACE zomato WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'};
+```
+
+7.Create the database table for the aggregates
+```
+cqlsh> CREATE TABLE zomato.summary (
+       name text PRIMARY KEY,
+       aggregate_rating float,
+       average_cost_for_two int,
+       city text,
+       cuisines text,
+       id int,
+       locality text,
+       rating_text text,
+       votes int
+      );
+```
+8.Create the database table for the cities
+```
+cqlsh> CREATE TABLE zomato.cities (
+       name text PRIMARY KEY,
+       country_name text,
+       id int);
+```
+
+9.Loading the above aggregates csv file into Cassandra DB.
+```
+cqlsh>COPY zomato.summary(id,name,locality,city,cuisines,average_cost_for_two,aggregate_rating,rating_text,votes)
+      FROM '/home/final_db_input.csv'
+      WITH HEADER=TRUE;
+ ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
